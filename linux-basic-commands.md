@@ -223,4 +223,7 @@
 -> Thank You! <-
 
 
--> [Note can be found here](a.md)
+
+
+-> This note can be found at
+-> ` https://hlink.page.link/nM9x `
