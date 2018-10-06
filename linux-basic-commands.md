@@ -1,5 +1,5 @@
 ```
-%title: Linux Basic Commands - [Beginner Level]
+%title: Side Notes
 %author: [credit: hive]
 %date: 2018-10-06
 ```
