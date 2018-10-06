@@ -1,6 +1,8 @@
+```
 %title: Linux Basic Commands - [Beginner Level]
 %author: [credit: hive]
 %date: 2018-10-06
+```
 
 -> Some *basic commands*
 -> *to start* using Linux/Unix CLI.
@@ -13,7 +15,7 @@
 ---
 
 ## ls
-	list content in working directory
+	list files/folders
 	
 	- ls
 	- ls -l
@@ -48,14 +50,15 @@
 ---
 
 ## cp
-	copy files and folders
+	copy files/folders
 	
 	- cp <src> <dst>
+	- cp -r <src dir> <dst dir>
 
 ---
 
 ## mv
-	move/rename files and folders
+	move/rename files/folders
 	
 	- mv <src> <dst>
 
@@ -70,7 +73,7 @@
 ---
 
 ## cat
-	concatenate, print file/s
+	concatenate, print file/s content on screen
 	
 	- cat file
 	- cat file1 file2
@@ -78,14 +81,14 @@
 ---
 
 ## --help
-	help on how to use the command
+	how to use the command
 	
 	- <command> --help
 
 ---
 
 ## man
-	manual pages of commands and packages
+	manual pages of commands/packages
 	
 	- man <command>
 	- man ls
@@ -94,7 +97,7 @@
 ---
 
 ## locate
-	locate files
+	locate files/folders
 	
 	- locate <filename>
 	- usage it's db
@@ -139,7 +142,7 @@
 ---
 
 ## tab/double tab
-	use for completion
+	used for completion
 	
 	- ls file<tab>
 	- cd /home/<tab></tab>
@@ -147,7 +150,7 @@
 ---
 
 ## file
-	get type of file
+	get file type
 	
 	- file <file>
 
@@ -161,7 +164,7 @@
 ---
 
 ## | <pipe>
-	pass output to another program/command
+	pass output to another program
 	
 	- ls|cat
 	- cat file|sort
@@ -195,6 +198,15 @@
 
 ---
 
+## more/less
+	paginate
+	
+	- more <filename>
+	- cat <filename>|more
+	- less <filemame>
+
+---
+
 ## vi/vim
 	visual editor, simple yet powerful
 	
@@ -208,15 +220,6 @@
 		- hjkl
 	- some commands
 		- i, a, d, dd, yy, 3yy, /
-
----
-
-## more/less
-	paginate
-	
-	- more <filename>
-	- cat <filename>|more
-	- less <filemame>
 
 ---
 
