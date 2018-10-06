@@ -112,7 +112,7 @@
 
 ---
 
-## apt-get, yum
+## apt-get, yum, ...
   package management
   
   - apt-get install <packagename>
